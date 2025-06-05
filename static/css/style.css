@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-top {
+    display: flex;
+    border: #000 solid 1px;
+    align-items: bottom;
+}
+
+.selector {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    border: #000 solid 1px;
+}
+
+#mapas-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .mapa {
+            height: 300px;
+        }
+
+#compass_map {
+    height: 35rem;
+    width: 50%;
+    border: #000 solid 1px;
+}
+
+.titulo-plataforma {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.infraestructuras-derechos {
+    display: flex;
+}
+
+.bloque-grafico {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 0;
+    gap: 50px;
+}
+
+.bloque-grafico p {
+    text-align: center;
+}
+
+#resultado ul{
+    list-style: none;
+    padding: 0;
+}
+
+#valores-totales ul{
+    list-style: none;
+    padding: 0;
+}
+
+#grafico-vivienda-suelo {
+            max-height: 90%;
+        }
+
+.titulo-contacto {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(0) brightness(0) saturate(100%);
+}
+
+.mapa-observatorio {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+footer .nav img {
+    filter: brightness(0) saturate(100%);
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 426px) {
+    .tablas {
+        flex-direction: column;
+    }
+
+    .grafico {
+        flex-direction: column;
+    }
+
+}
