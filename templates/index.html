@@ -23,7 +23,7 @@
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="{{ url_for('index') }}" class="nav-link px-2 text-secondary">La Brújula</a></li>
                     <li><a href="{{ url_for('metodologia') }}" class="nav-link px-2 text-white">Metodología</a></li>
-                    <li><a href="{{ url_for('plataforma') }}" class="nav-link px-2 text-white">Plataforma</a></li>
+                    <li><a href="{{ url_for('plataforma_vivienda_suelo') }}" class="nav-link px-2 text-white">Plataforma</a></li>
                     <li><a href="{{ url_for('observatorio') }}" class="nav-link px-2 text-white">Observatorio</a></li>
                     <li><a href="{{ url_for('contacto') }}" class="nav-link px-2 text-white">Contacto</a></li>
                 </ul>
@@ -49,9 +49,9 @@
                         reiciendis, inventore ducimus mollitia veniam nemo quidem commodi temporibus atque, voluptas
                         optio! Cum doloremque facilis corrupti mollitia, ipsa molestiae.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <a
-                            href="./pages/metodologia.html"><button type="button"
+                            href="{{ url_for('metodologia') }}"><button type="button"
                                 class="btn btn-primary btn-lg px-4 me-md-2">Metodología</button></a> <a
-                            href="./pages/plataforma-vivienda-suelo.html"><button
+                            href="{{ url_for('plataforma_vivienda_suelo') }}"><button
                             type="button" class="btn btn-outline-secondary btn-lg px-4">Plataforma</button></a> </div>
                 </div>
             </div>
